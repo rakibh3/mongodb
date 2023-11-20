@@ -1,0 +1,27 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add -D @types/node
+
+PATH: 
+  /usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
