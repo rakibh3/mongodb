@@ -1,7 +1,7 @@
 {
-  "name": "first-project",
+  "name": "uni-lms",
   "version": "1.0.0",
-  "description": "",
+  "description": "An API for university managment system!",
   "main": "index.js",
   "scripts": {
     "start:prod": "node ./dist/server.js",
