@@ -4,6 +4,7 @@ import { StudentServices } from './student.service';
 import { sendResponse } from '../../utils/sendResponse';
 import httpStatus from 'http-status';
 
+// Get all students
 const getAllStudents = async (
   req: Request,
   res: Response,
@@ -23,6 +24,7 @@ const getAllStudents = async (
   }
 };
 
+// Get single student by ID
 const getSingleStudent = async (
   req: Request,
   res: Response,
@@ -44,6 +46,7 @@ const getSingleStudent = async (
   }
 };
 
+// Delete student
 const deleteStudent = async (
   req: Request,
   res: Response,

@@ -3,6 +3,7 @@ import { UserServices } from './user.service';
 import { sendResponse } from '../../utils/sendResponse';
 import httpStatus from 'http-status';
 
+// Create user as a student
 const createStudent = async (
   req: Request,
   res: Response,
